@@ -1,0 +1,10 @@
+# Define the unique method that removes duplicates
+def unique(integers)
+ arr=[]
+ integers.each do|int|
+  if arr.include?(int)==false
+   arr << int
+   end
+  end
+  return arr
+ end
