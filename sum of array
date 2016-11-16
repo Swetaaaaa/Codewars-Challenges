@@ -1,0 +1,12 @@
+# Sum Numbers
+def sum(numbers)
+ @s=0
+if numbers==[]
+ return 0
+ else
+  numbers.each do|i|
+  @s+=i
+  end
+ return @s
+end
+end
