@@ -1,0 +1,17 @@
+def calculate_tip(amount, rating)
+rate=rating.downcase
+  if rate=="terrible"
+  0
+  elsif rate=="poor"
+  (0.05*amount).ceil
+  elsif rate=="good"
+  (0.1*amount).ceil
+  elsif rate=="great"  
+  (0.15*amount).ceil
+   elsif rate=="excellent"
+ (0.2*amount).ceil
+   else
+   "Rating not recognised"
+   end
+  
+end
