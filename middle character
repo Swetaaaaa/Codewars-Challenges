@@ -1,0 +1,8 @@
+def get_middle(s)
+i=s.length
+  if i%2==0
+     "#{s[i/2-1]}" + "#{s[i/2]}"
+    else
+    "#{s[i/2]}"
+    end
+end
