@@ -1,0 +1,11 @@
+def rps(p1, p2)
+win={"scissors" =>"paper" ,"paper" => "rock", "rock" => "scissors"}
+
+  if p1==p2
+  "Draw!"
+  elsif win[p1]==p2
+  "Player 1 won!"
+  else
+  "Player 2 won!"
+  end
+end
